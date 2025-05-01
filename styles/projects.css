@@ -1,0 +1,98 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: center;
+    margin: 0 -10px;
+}
+
+.project-container {
+    border-radius: 10px;
+    background-color: #BEAEDB;
+    padding: 20px;
+    margin: 0 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container h3 {
+    margin: 0;
+}
+
+.project-container .content-image {
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background: #BEAEDB;
+    margin: 10px 0;
+}
+
+.project-container .content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-container .content-text {
+    text-align: justify;
+}
+
+.project-container .content-text .go-to-tcc {
+    background-color: #75619D;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.project-container .content-text .go-to-tcc a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Tags */
+
+.container-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.tag {
+    border-radius: 15px;
+    padding: 1px 10px;
+    margin: 5px 5px 0 5px;
+    font-size: 13px;
+}
+
+.tag-html {
+    background-color: #E34C26;
+}
+
+.tag-css {
+    background-color: #663399;
+}
+
+.tag-js {
+    background-color: #F1E05A;
+}
+
+.tag-php {
+    background-color: #4F5D95;
+}
+
+.tag-vue {
+    background-color: #41B883;
+}
+
+.tag-react {
+    background-color: #61DBFB;
+}
+
+.tag-firebase {
+    background-color: #F5820D;
+}

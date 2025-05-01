@@ -1,0 +1,17 @@
+.content.message-form {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.content .message-form-container {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.content.message-form .form-elements {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
