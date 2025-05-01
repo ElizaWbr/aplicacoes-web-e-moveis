@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     top: 0;
     height: 100vh;
@@ -9,32 +9,32 @@ body{
     justify-content: center;
 }
 
-a{
+a {
     color: #221932;
 }
 
-span{
+span {
     color: #060407;
 }
 
-h2{
+h2 {
     text-transform: uppercase;
     color: #060407;
 }
 
-h3{
+h3 {
     text-transform: uppercase;
     color: #060407;
 }
 
-.simple-container{
+.simple-container {
     height: 80vh;
     width: 70vw;
     background-color: #9882B9;
     border-radius: 10px;
 }
 
-.nav-bar{
+.nav-bar {
     background-color: #775E88;
     display: flex;
     flex-direction: column;
@@ -44,16 +44,16 @@ h3{
     border-radius: 10px 10px 0 0;
 }
 
-.site-title{
+.site-title {
     margin-top: 0;
     margin-bottom: 10px;
 }
 
-.container-links a{ 
+.container-links a { 
     padding: 0 5px;
 }
 
-.site-content{
+.site-content {
     height: calc(65vh - 30px);
     width: calc(70vw - 40px);
     position: absolute;
@@ -73,7 +73,7 @@ h3{
     margin-bottom: 20px;
 }
 
-.data .title{
+.data .title {
     height: 20px;
     width: calc(100% - 40px);
     margin: 0;
@@ -84,7 +84,7 @@ h3{
     color: #060407;
 }
 
-.data .content{
+.data .content {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -92,19 +92,19 @@ h3{
 
 /* Contacts */
 
-.content.message-form{
+.content.message-form {
     display: flex;
     padding: 10px;
     align-items: center;
 }
 
-.content .message-form-container{
+.content .message-form-container {
     width: 30vw;
     display: flex;
     flex-direction: column;
 }
 
-.content.message-form .form-elements{
+.content.message-form .form-elements {
     padding: 10px;
     margin: 5px 0;
     border-radius: 10px;
@@ -112,14 +112,14 @@ h3{
 
 /* Projects */
 
-.projects-grid{
+.projects-grid {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     justify-content: center;
     margin: 0 -10px;
 }
 
-.project-container{
+.project-container {
     border-radius: 10px;
     background-color: #BEAEDB;
     padding: 20px;
@@ -129,30 +129,30 @@ h3{
     align-items: center;
 }
 
-.project-container h3{
+.project-container h3 {
     margin: 0;
 }
 
-.project-container .content-image{
+.project-container .content-image {
     width: 100%;
     height: 25vh;
     border-radius: 10px;
-    background: red;
+    background: #BEAEDB;
     margin: 10px 0;
 }
 
-.project-container .content-image img{
+.project-container .content-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.project-container .content-text{
+.project-container .content-text {
     text-align: justify;
 }
 
-.project-container .content-text .go-to-tcc{
+.project-container .content-text .go-to-tcc {
     background-color: #75619D;
     border-radius: 10px;
     padding: 5px 10px;
@@ -160,7 +160,7 @@ h3{
     text-align: center;
 }
 
-.project-container .content-text .go-to-tcc a{
+.project-container .content-text .go-to-tcc a {
     text-decoration: none;
     color: black;
 }
@@ -168,7 +168,7 @@ h3{
 
 /* Tags */
 
-.container-tags{
+.container-tags {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -177,55 +177,55 @@ h3{
     margin-top: 5px;
 }
 
-.tag{
+.tag {
     border-radius: 15px;
     padding: 1px 10px;
     margin: 5px 5px 0 5px;
     font-size: 13px;
 }
 
-.tag-html{
+.tag-html {
     background-color: #E34C26;
 }
 
-.tag-css{
+.tag-css {
     background-color: #663399;
 }
 
-.tag-js{
+.tag-js {
     background-color: #F1E05A;
 }
 
-.tag-php{
+.tag-php {
     background-color: #4F5D95;
 }
 
-.tag-vue{
+.tag-vue {
     background-color: #41B883;
 }
 
-.tag-react{
+.tag-react {
     background-color: #61DBFB;
 }
 
-.tag-firebase{
+.tag-firebase {
     background-color: #F5820D;
 }
 
 /* Colors */
 
-.data.general-data{
+.data.general-data {
     border-color: #BEAEDB;
 }
 
-.data.general-data .title{
+.data.general-data .title {
     background-color: #BEAEDB;
 }
 
-.data.second-info{
+.data.second-info {
     border-color: #75619D;
 }
 
-.data.second-info .title{
+.data.second-info .title {
     background-color: #75619D;
 }
